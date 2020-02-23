@@ -63,10 +63,10 @@ $(document).ready(function() {
 
 		if (isBlanck){
 			if (total >= 80){
-				output.text("Your grade is: A").css("color", "blue");
+				output.text("Your grade is: A").addClass("blue");
 			} 
 			else if (total > 80 || total >= 60){
-				output.text("Your grade is: B").css("color", "blue");
+				output.text("Your grade is: B").addClass("blue");
 			}
 			else {
 				output.text("Your grade is: F");
